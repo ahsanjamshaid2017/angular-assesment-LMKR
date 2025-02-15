@@ -1,0 +1,34 @@
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.status-indicator {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  width: fit-content;
+}
+
+.status-indicator.active {
+  background-color: #b7d5be;
+  color: #1e7c35;
+}
+
+.status-indicator.paused {
+  background-color: #ede3be;
+  color: #a17907;
+}
+
+.status-indicator.inactive {
+  background-color: #dfc6c8;
+  color: #a13e44;
+}
+
+.button-group {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
